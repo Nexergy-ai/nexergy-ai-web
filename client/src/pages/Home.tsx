@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowRight, Zap, Factory, Cpu, Box, Beaker, Shield, Eye, Users, Leaf, Lightbulb, TrendingUp, Cloud } from "lucide-react";
 import { useState } from "react";
+import ContactForm from "@/components/ContactForm";
 
 /**
  * Diseño: Minimalismo Corporativo Futurista
@@ -349,20 +350,35 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section id="contact" className="py-20 md:py-32 bg-gradient-to-r from-primary to-primary/90">
-        <div className="container text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">¿Listo para transformar tu operación?</h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Descubre cómo NEXERGY AI puede conectar tu estrategia con la ejecución operativa para generar valor medible.
-          </p>
-          <div className="flex gap-4 justify-center flex-wrap">
-            <Button className="bg-white text-primary hover:bg-blue-50 px-8 py-6 text-base font-semibold">
-              Solicitar Demo <ArrowRight className="ml-2 w-4 h-4" />
-            </Button>
-            <Button variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-6 text-base">
-              Contactar Ventas
-            </Button>
+      {/* CTA Section with Contact Form */}
+      <section id="contact" className="py-20 md:py-32 bg-gradient-to-b from-white to-blue-50">
+        <div className="container">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">¿Listo para transformar tu operación?</h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Completa el formulario y nuestro equipo se pondrá en contacto para explorar cómo NEXERGY AI puede generar valor medible en tu organización.
+            </p>
+          </div>
+
+          {/* Contact Form */}
+          <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-8 md:p-12 border border-border">
+            <ContactForm />
+          </div>
+
+          {/* Trust Indicators */}
+          <div className="mt-16 grid md:grid-cols-3 gap-8 text-center">
+            <div>
+              <p className="text-3xl font-bold text-primary mb-2">500+</p>
+              <p className="text-muted-foreground">Empresas transformadas</p>
+            </div>
+            <div>
+              <p className="text-3xl font-bold text-secondary mb-2">30%</p>
+              <p className="text-muted-foreground">Mejora promedio en eficiencia</p>
+            </div>
+            <div>
+              <p className="text-3xl font-bold text-accent mb-2">24/7</p>
+              <p className="text-muted-foreground">Soporte operacional</p>
+            </div>
           </div>
         </div>
       </section>
