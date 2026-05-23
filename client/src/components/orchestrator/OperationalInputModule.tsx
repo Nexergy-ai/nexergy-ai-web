@@ -216,9 +216,7 @@ export function OperationalInputModule({ onContextSubmit, isLoading = false }: O
       {/* Info Box */}
       <Card className="border-green-500/20 bg-green-500/5 p-4">
         <p className="text-sm text-green-300">
-          <strong>How it works:</strong> Your operational context will be classified, routed through
-          NEXERGY INDUSTRIAL, ENERGY, AGENTS, DIGITAL_TWIN, and LABS business units for comprehensive
-          analysis and recommendations.
+          <strong>Next:</strong> Submit your context to activate business units and receive recommendations.
         </p>
       </Card>
     </div>

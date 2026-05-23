@@ -7,7 +7,7 @@ import { SiteConfig } from '@/types';
 
 export const siteConfig: SiteConfig = {
   name: 'NEXERGY AI',
-  description: 'AI-Native Operational Infrastructure for Industrial and Energy Systems',
+  description: 'Operational Intelligence Infrastructure',
   url: 'https://nexergy.ai',
   apiUrl: process.env.VITE_API_URL || 'https://api.nexergy.ai',
   environment: (process.env.VITE_ENVIRONMENT as any) || 'development',
@@ -20,162 +20,6 @@ export const siteConfig: SiteConfig = {
     analytics: true,
   },
 };
-
-// ============================================================================
-// NAVIGATION
-// ============================================================================
-
-export const navigationLinks = [
-  { href: '/', label: 'Inicio', id: 'home' },
-  { href: '#platform', label: 'Plataforma', id: 'platform' },
-  { href: '#units', label: 'Soluciones', id: 'solutions' },
-  { href: '#governance', label: 'Seguridad', id: 'governance' },
-  { href: '#contact', label: 'Contacto', id: 'contact' },
-];
-
-// ============================================================================
-// BUSINESS UNITS
-// ============================================================================
-
-export const businessUnitsConfig = {
-  industrial: {
-    id: 'industrial',
-    name: 'NEXERGY INDUSTRIAL',
-    tagline: 'Optimización de operaciones',
-    description: 'Optimización de operaciones industriales, mantenimiento predictivo y reducción de downtime.',
-    color: '#0F3A7D',
-    icon: 'Factory',
-    features: [
-      'Predictive Maintenance',
-      'Production Optimization',
-      'Equipment Monitoring',
-      'Downtime Reduction',
-    ],
-    useCases: [
-      'Manufacturing Plants',
-      'Heavy Industry',
-      'Production Lines',
-      'Equipment Maintenance',
-    ],
-  },
-  energy: {
-    id: 'energy',
-    name: 'NEXERGY ENERGY',
-    tagline: 'Gestión energética',
-    description: 'Gestión y eficiencia energética para activos, plantas y redes críticas.',
-    color: '#00A86B',
-    icon: 'Zap',
-    features: [
-      'Energy Forecasting',
-      'Load Optimization',
-      'Grid Management',
-      'Sustainability Tracking',
-    ],
-    useCases: [
-      'Power Plants',
-      'Renewable Energy',
-      'Smart Grids',
-      'Energy Distribution',
-    ],
-  },
-  agents: {
-    id: 'agents',
-    name: 'NEXERGY AGENTS',
-    tagline: 'Agentes de IA',
-    description: 'Agentes de IA que monitorean, analizan y ejecutan acciones para mejorar resultados.',
-    color: '#9333EA',
-    icon: 'Cpu',
-    features: [
-      'AI Orchestration',
-      'Autonomous Actions',
-      'Real-time Monitoring',
-      'Intelligent Recommendations',
-    ],
-    useCases: [
-      'Operational Automation',
-      'Decision Support',
-      'Anomaly Detection',
-      'Process Optimization',
-    ],
-  },
-  'digital-twin': {
-    id: 'digital-twin',
-    name: 'NEXERGY DIGITAL TWIN',
-    tagline: 'Gemelos digitales',
-    description: 'Gemelos digitales que simulan, predicen y optimizan sistemas en tiempo real.',
-    color: '#00D9FF',
-    icon: 'Box',
-    features: [
-      'Real-time Simulation',
-      'Scenario Analysis',
-      'Predictive Modeling',
-      'What-if Analysis',
-    ],
-    useCases: [
-      'System Simulation',
-      'Performance Prediction',
-      'Risk Assessment',
-      'Optimization Planning',
-    ],
-  },
-  labs: {
-    id: 'labs',
-    name: 'NEXERGY LABS',
-    tagline: 'Investigación e innovación',
-    description: 'Investigación, desarrollo e innovación en IA, automatización y tecnologías emergentes.',
-    color: '#F59E0B',
-    icon: 'Beaker',
-    features: [
-      'AI Research',
-      'Model Development',
-      'Technology Innovation',
-      'Emerging Tech Integration',
-    ],
-    useCases: [
-      'Advanced Analytics',
-      'New Technology Pilots',
-      'Research Collaboration',
-      'Innovation Projects',
-    ],
-  },
-};
-
-// ============================================================================
-// INDUSTRIES
-// ============================================================================
-
-export const industriesConfig = [
-  {
-    id: 'energy',
-    name: 'Energy',
-    description: 'Power generation, distribution, and renewable energy systems',
-    icon: 'Zap',
-  },
-  {
-    id: 'oil-gas',
-    name: 'Oil & Gas',
-    description: 'Upstream, midstream, and downstream operations',
-    icon: 'Droplets',
-  },
-  {
-    id: 'industrial-plants',
-    name: 'Industrial Plants',
-    description: 'Manufacturing, chemical, and processing facilities',
-    icon: 'Factory',
-  },
-  {
-    id: 'utilities',
-    name: 'Utilities',
-    description: 'Water, gas, and infrastructure management',
-    icon: 'Zap',
-  },
-  {
-    id: 'smart-infrastructure',
-    name: 'Smart Infrastructure',
-    description: 'Smart cities, buildings, and connected systems',
-    icon: 'Building2',
-  },
-];
 
 // ============================================================================
 // GOVERNANCE & COMPLIANCE
@@ -201,33 +45,6 @@ export const governanceFramework = {
     color: '#00D9FF',
   },
 };
-
-// ============================================================================
-// VALUE PROPOSITION
-// ============================================================================
-
-export const valueProposition = [
-  {
-    title: 'Alineamos estrategia y operación',
-    description: 'Conectamos la visión estratégica con la ejecución operativa, asegurando que cada decisión contribuya a los objetivos del negocio.',
-    icon: 'Target',
-  },
-  {
-    title: 'Convertimos datos en decisiones y acciones',
-    description: 'Transformamos datos operacionales en inteligencia accionable que empodera decisiones más inteligentes, rápidas y confiables.',
-    icon: 'TrendingUp',
-  },
-  {
-    title: 'Operación más eficiente, segura y sostenible',
-    description: 'Optimizamos operaciones con automatización, resiliencia y seguridad en el núcleo, reduciendo costos y riesgos.',
-    icon: 'Leaf',
-  },
-  {
-    title: 'Valor medible y escalable',
-    description: 'Construimos soluciones escalables que crecen con tu negocio y entregan compounding value a través del tiempo.',
-    icon: 'BarChart3',
-  },
-];
 
 // ============================================================================
 // CORE VALUES
@@ -258,53 +75,6 @@ export const coreValues = [
     title: 'INNOVACIÓN',
     description: 'Tecnología para resolver problemas reales',
     icon: 'Lightbulb',
-  },
-];
-
-// ============================================================================
-// PLATFORM ARCHITECTURE LAYERS
-// ============================================================================
-
-export const platformArchitectureLayers = [
-  {
-    id: 'data',
-    name: 'CONECTA',
-    subtitle: 'Data Layer',
-    description: 'Integra y centraliza datos de múltiples fuentes',
-    icon: 'Database',
-    color: '#0F3A7D',
-  },
-  {
-    id: 'intelligence',
-    name: 'ENTIENDE',
-    subtitle: 'AI Intelligence Layer',
-    description: 'Aplica IA y analítica para comprender patrones',
-    icon: 'Brain',
-    color: '#00A86B',
-  },
-  {
-    id: 'simulation',
-    name: 'SIMULA',
-    subtitle: 'Digital Twin Layer',
-    description: 'Crea modelos y escenarios para predecir resultados',
-    icon: 'Box',
-    color: '#00D9FF',
-  },
-  {
-    id: 'decision',
-    name: 'DECIDE',
-    subtitle: 'Governance Layer',
-    description: 'IA recomienda la mejor acción basada en datos',
-    icon: 'Cpu',
-    color: '#9333EA',
-  },
-  {
-    id: 'execution',
-    name: 'EJECUTA',
-    subtitle: 'Execution Layer',
-    description: 'Ejecuta la decisión en los sistemas y el entorno real',
-    icon: 'Play',
-    color: '#F59E0B',
   },
 ];
 
