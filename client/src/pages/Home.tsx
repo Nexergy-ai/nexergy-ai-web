@@ -10,7 +10,7 @@ export default function Home() {
 
   const handleContextSubmit = (context: OperationalContext) => {
     // Navigate to orchestrator with context
-    navigate("/orchestrator");
+    navigate("/orchestrator?context=" + encodeURIComponent(JSON.stringify(context)));
   };
 
   return (

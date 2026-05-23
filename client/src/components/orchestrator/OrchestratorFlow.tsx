@@ -46,36 +46,52 @@ export function OrchestratorFlow({
 }: OrchestratorFlowProps) {
   return (
     <div className="w-full space-y-8">
-      {/* Classification Summary */}
+      {/* Classification Summary - Executive Summary */}
       <div className="bg-gradient-to-r from-slate-900 to-slate-800 border border-cyan-500/30 rounded-lg p-6">
-        <div className="flex items-start justify-between">
-          <div className="space-y-2">
-            <h3 className="text-lg font-semibold text-white">Analysis Complete</h3>
-            <p className="text-gray-400">Industry: <span className="text-cyan-400 capitalize">{classification.industry}</span></p>
-            <p className="text-gray-400">Confidence: <span className="text-green-400">{(classification.confidence * 100).toFixed(1)}%</span></p>
-          </div>
-          <div className="text-right">
-            <div className="text-3xl font-bold text-cyan-400">{classification.recommendedUnits.length}</div>
-            <p className="text-sm text-gray-400">Units Activated</p>
-          </div>
-        </div>
-        {classification.detectedProblems.length > 0 && (
-          <div className="mt-4 space-y-2">
-            <p className="text-sm font-medium text-gray-300">Detected Issues:</p>
-            <div className="flex flex-wrap gap-2">
-              {classification.detectedProblems.map((problem, idx) => (
-                <Badge key={idx} variant="secondary" className="bg-cyan-500/20 text-cyan-300">
-                  {problem}
-                </Badge>
-              ))}
+        <div className="space-y-4">
+          <div className="flex items-start justify-between">
+            <div>
+              <h3 className="text-xl font-bold text-white">Intelligence Generated</h3>
+              <p className="text-sm text-gray-400 mt-1">Operational Context Analyzed</p>
+            </div>
+            <div className="text-right">
+              <div className="text-4xl font-bold text-cyan-400">{classification.recommendedUnits.length}</div>
+              <p className="text-xs text-gray-400 mt-1">Business Units Activated</p>
             </div>
           </div>
-        )}
+          
+          <div className="grid grid-cols-2 gap-4 pt-2 border-t border-cyan-500/20">
+            <div>
+              <p className="text-xs text-gray-400 mb-1">Industry Sector</p>
+              <p className="text-sm font-semibold text-cyan-300 capitalize">{classification.industry}</p>
+            </div>
+            <div>
+              <p className="text-xs text-gray-400 mb-1">Analysis Confidence</p>
+              <p className="text-sm font-semibold text-green-400">{(classification.confidence * 100).toFixed(0)}%</p>
+            </div>
+          </div>
+          
+          {classification.detectedProblems.length > 0 && (
+            <div className="pt-2 border-t border-cyan-500/20">
+              <p className="text-xs font-medium text-gray-300 mb-2">Detected Operational Issues:</p>
+              <div className="flex flex-wrap gap-2">
+                {classification.detectedProblems.map((problem, idx) => (
+                  <Badge key={idx} variant="secondary" className="bg-cyan-500/20 text-cyan-300 text-xs">
+                    {problem}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
       </div>
 
-      {/* Business Unit Results */}
+      {/* Business Unit Results - Operational Output */}
       <div className="space-y-4">
-        <h3 className="text-lg font-semibold text-white">Recommendations by Unit</h3>
+        <div>
+          <h3 className="text-lg font-bold text-white">Operational Output</h3>
+          <p className="text-sm text-gray-400 mt-1">Actionable Recommendations by Business Unit</p>
+        </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           {businessUnitResults.map((result) => (
             <div
@@ -118,7 +134,10 @@ export function OrchestratorFlow({
 
       {/* Agent Deployment */}
       <div className="space-y-4">
-        <h3 className="text-lg font-semibold text-white">Deployed Agents</h3>
+        <div>
+          <h3 className="text-lg font-bold text-white">Intelligent Agents Deployed</h3>
+          <p className="text-sm text-gray-400 mt-1">Specialized Agents Executing Analysis</p>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
           {agents.map((agent) => (
             <div
@@ -140,7 +159,10 @@ export function OrchestratorFlow({
 
       {/* Research Findings */}
       <div className="space-y-4">
-        <h3 className="text-lg font-semibold text-white">Research & Benchmarks</h3>
+        <div>
+          <h3 className="text-lg font-bold text-white">Research & Industry Benchmarks</h3>
+          <p className="text-sm text-gray-400 mt-1">Evidence-Based Intelligence</p>
+        </div>
         <div className="space-y-3">
           {research.map((finding, idx) => (
             <div

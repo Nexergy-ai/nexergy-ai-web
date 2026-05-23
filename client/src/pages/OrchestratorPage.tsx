@@ -1,15 +1,36 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useLocation } from 'wouter';
 import { OperationalInputModule } from '@/components/orchestrator/OperationalInputModule';
 import { OrchestratorFlow } from '@/components/orchestrator/OrchestratorFlow';
 import { OperationalContext, OrchestratorResult, orchestrateContext } from '@/services/OrchestratorService';
 import { Loader2 } from 'lucide-react';
 
 export default function OrchestratorPage() {
+  const [, navigate] = useLocation();
   const [result, setResult] = useState<OrchestratorResult | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
+  // Extract context from URL and auto-submit if present
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const contextParam = params.get('context');
+    if (contextParam) {
+      try {
+        const context = JSON.parse(decodeURIComponent(contextParam));
+        // Auto-submit the context
+        handleContextSubmit(context);
+        // Clean up URL
+        navigate('/orchestrator');
+      } catch (err) {
+        console.error('Failed to parse context from URL:', err);
+      }
+    }
+  }, []);
+
   const handleContextSubmit = async (context: OperationalContext) => {
+    // Prevent re-submission if already loading or has results
+    if (isLoading || result) return;
     setIsLoading(true);
     setError(null);
     
