@@ -3,6 +3,7 @@ import { Card } from "@/components/ui/card";
 import { ArrowRight, Zap, Factory, Cpu, Box, Beaker, Shield, Eye, Users, Leaf, Lightbulb, TrendingUp, Cloud } from "lucide-react";
 import { useState } from "react";
 import ContactForm from "@/components/ContactForm";
+import { useLocation } from "wouter";
 
 /**
  * Diseño: Minimalismo Corporativo Futurista
@@ -14,6 +15,7 @@ import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
   const [activeUnit, setActiveUnit] = useState<string | null>(null);
+  const [, navigate] = useLocation();
 
   return (
     <div className="min-h-screen bg-white">
@@ -58,8 +60,11 @@ export default function Home() {
               NEXERGY AI conecta la estrategia del negocio con los datos operacionales mediante IA agentiva y gemelos digitales para optimizar decisiones en tiempo real y asistir la ejecución operativa.
             </p>
             <div className="flex gap-4">
-              <Button className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-base">
-                Explorar Plataforma <ArrowRight className="ml-2 w-4 h-4" />
+              <Button 
+                onClick={() => navigate('/orchestrator')}
+                className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-base"
+              >
+                Orchestrator <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
               <Button variant="outline" className="px-8 py-6 text-base border-primary text-primary hover:bg-primary/5">
                 Ver Documentación
