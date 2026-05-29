@@ -3,8 +3,8 @@
   "buildCommand": "pnpm build",
   "outputDirectory": "dist/public",
   "env": {
-    "VITE_API_URL": "@vite_api_url",
-    "VITE_ENVIRONMENT": "@vite_environment"
+    "VITE_API_URL": "https://api.nexergyai.space",
+    "VITE_ENVIRONMENT": "production"
   },
   "functions": {
     "server/index.ts": {
