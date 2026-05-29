@@ -1,4 +1,4 @@
-# DEPLOYMENT STATUS — NEXERGY AI
+# DEPLOYMENT STATUS — OPTINEX AI
 
 **Date:** May 23, 2026  
 **Status:** Repository Complete | Deployment Pending
@@ -8,7 +8,7 @@
 ## Current State
 
 ### Repository
-- **URL:** https://github.com/Nexergy-ai/nexergy-ai-web
+- **URL:** https://github.com/Optinex-ai/optinex-ai-web
 - **Branch:** main
 - **Latest Commit:** `65d17ed` — "feat: Optimize operational workflow UX - continuous context flow and simplified input"
 
@@ -32,7 +32,7 @@
 ## Deployment Gap
 
 ### Issue
-Live Vercel deployment at `https://nexergyai-6txmb7tk.manus.space/` still displays outdated version with:
+Live Vercel deployment at `https://optinexai-6txmb7tk.manus.space/` still displays outdated version with:
 - Extended homepage with multiple sections
 - Dashboard, Analytics, Governance sections visible
 - Older UX layout
@@ -69,7 +69,7 @@ GitHub → Vercel auto-deployment pipeline is **not connected** or **not trigger
 | **Vercel Connection** | Verify GitHub → Vercel webhook is active | DevOps/Deployment |
 | **Manual Redeploy** | Trigger production deployment from Vercel dashboard or CLI | DevOps/Deployment |
 | **Cache Clear** | Clear Vercel deployment cache before redeploy | DevOps/Deployment |
-| **Live Validation** | Confirm `https://nexergyai-6txmb7tk.manus.space/` shows optimized UX | QA |
+| **Live Validation** | Confirm `https://optinexai-6txmb7tk.manus.space/` shows optimized UX | QA |
 
 ---
 
@@ -77,7 +77,7 @@ GitHub → Vercel auto-deployment pipeline is **not connected** or **not trigger
 
 ### Option 1: Vercel Dashboard (Recommended)
 1. Log in to Vercel dashboard
-2. Select NEXERGY AI project
+2. Select OPTINEX AI project
 3. Go to Deployments tab
 4. Click "Redeploy" on latest commit or manually trigger from main branch
 5. Clear cache if available
@@ -86,7 +86,7 @@ GitHub → Vercel auto-deployment pipeline is **not connected** or **not trigger
 
 ### Option 2: Vercel CLI
 ```bash
-cd /home/ubuntu/nexergy-ai-web
+cd /home/ubuntu/optinex-ai-web
 vercel deploy --prod --force
 ```
 
@@ -101,7 +101,7 @@ vercel deploy --prod --force
 ## Verification Checklist
 
 After redeployment, confirm:
-- [ ] Live URL title shows "NEXERGY AI — Operational Intelligence Orchestrator"
+- [ ] Live URL title shows "OPTINEX AI — Operational Intelligence Orchestrator"
 - [ ] Homepage displays simplified layout (no Dashboard/Analytics sections above fold)
 - [ ] Input Module (textarea) is visible immediately
 - [ ] "Experience Orchestrator" button is primary CTA

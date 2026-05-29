@@ -1,4 +1,4 @@
-# NEXERGY AI - Continuation Guide for Team Members
+# OPTINEX AI - Continuation Guide for Team Members
 
 ## Current Status
 
@@ -6,7 +6,7 @@
 **Date:** May 23, 2026
 **Status:** Ready for Phase 3 - Backend Integration
 
-This document guides your team on continuing the Nexergy AI platform development.
+This document guides your team on continuing the Optinex AI platform development.
 
 ---
 
@@ -47,7 +47,7 @@ This document guides your team on continuing the Nexergy AI platform development
 ## Project Structure
 
 ```
-nexergy-ai-web/
+optinex-ai-web/
 ├── client/src/
 │   ├── pages/              # Route components (Home, Dashboard, Governance)
 │   ├── components/
@@ -78,9 +78,9 @@ nexergy-ai-web/
 
 **Create FastAPI Backend:**
 ```bash
-# Create new repository: nexergy-ai-backend
-mkdir nexergy-ai-backend
-cd nexergy-ai-backend
+# Create new repository: optinex-ai-backend
+mkdir optinex-ai-backend
+cd optinex-ai-backend
 
 # Initialize FastAPI project
 pip install fastapi uvicorn sqlalchemy psycopg2-binary
@@ -107,7 +107,7 @@ pip install fastapi uvicorn sqlalchemy psycopg2-binary
 ```typescript
 // client/src/lib/api.ts already prepared
 // Just update VITE_API_URL environment variable
-VITE_API_URL=https://api.nexergy.ai
+VITE_API_URL=https://api.optinex.ai
 ```
 
 **Connect Hooks to Real Data:**
@@ -165,8 +165,8 @@ authApi.logout()
 
 ```bash
 # Clone repository
-git clone https://github.com/Nexergy-ai/nexergy-ai-web.git
-cd nexergy-ai-web
+git clone https://github.com/Optinex-ai/optinex-ai-web.git
+cd optinex-ai-web
 
 # Install dependencies
 pnpm install
@@ -281,7 +281,7 @@ import { MyComponent } from '@/components/MyComponent';
 
 ```typescript
 // 1. Update environment variable
-VITE_API_URL=https://api.nexergy.ai
+VITE_API_URL=https://api.optinex.ai
 
 // 2. Use API client
 import { metricsApi } from '@/lib/api';
@@ -332,7 +332,7 @@ const { metrics, loading } = useOperationalData();
 ```bash
 # Connect GitHub repository to Vercel
 # Set environment variables:
-VITE_API_URL=https://api.nexergy.ai
+VITE_API_URL=https://api.optinex.ai
 VITE_ENVIRONMENT=production
 
 # Deploy
@@ -444,7 +444,7 @@ pnpm build
 - shadcn/ui
 - Framer Motion
 
-**Team:** Nexergy AI Development Team
+**Team:** Optinex AI Development Team
 **Last Updated:** May 23, 2026
 **Status:** Ready for Phase 3 Implementation
 

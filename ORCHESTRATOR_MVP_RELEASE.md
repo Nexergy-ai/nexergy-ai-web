@@ -1,4 +1,4 @@
-# NEXERGY AI - Operational Orchestrator MVP Release
+# OPTINEX AI - Operational Orchestrator MVP Release
 
 **Version:** 1.0.0-mvp
 **Date:** May 23, 2026
@@ -8,7 +8,7 @@
 
 ## 🎯 MVP Overview
 
-This release introduces the **Operational Intelligence Orchestrator** as the central product experience of NEXERGY AI. The platform now enables users to submit operational contexts and receive comprehensive intelligence across five business units.
+This release introduces the **Operational Intelligence Orchestrator** as the central product experience of OPTINEX AI. The platform now enables users to submit operational contexts and receive comprehensive intelligence across five business units.
 
 ---
 
@@ -233,7 +233,7 @@ EXECUTIVE OUTPUT
 
 ### Installation
 ```bash
-cd nexergy-ai-web
+cd optinex-ai-web
 pnpm install
 pnpm dev
 ```
@@ -276,8 +276,8 @@ For issues or questions about the Orchestrator MVP, refer to:
 
 ## 🏁 Conclusion
 
-The NEXERGY AI Operational Orchestrator MVP successfully demonstrates the core product experience: transforming operational contexts into actionable intelligence through orchestrated business unit analysis.
+The OPTINEX AI Operational Orchestrator MVP successfully demonstrates the core product experience: transforming operational contexts into actionable intelligence through orchestrated business unit analysis.
 
 This release establishes the foundation for future enterprise features while maintaining operational credibility and UX quality.
 
-**Status:** Ready for unified publication as official NEXERGY AI platform.
+**Status:** Ready for unified publication as official OPTINEX AI platform.

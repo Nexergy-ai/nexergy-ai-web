@@ -1,8 +1,8 @@
-# 📋 Guía de Continuación - Nexergy AI Web
+# 📋 Guía de Continuación - Optinex AI Web
 
 ## Estado Actual del Proyecto
 
-El sitio web de **Nexergy AI** ha sido desarrollado con todas las secciones principales y un formulario de contacto interactivo con validación en tiempo real.
+El sitio web de **Optinex AI** ha sido desarrollado con todas las secciones principales y un formulario de contacto interactivo con validación en tiempo real.
 
 ### ✅ Completado
 
@@ -72,7 +72,7 @@ El sitio web de **Nexergy AI** ha sido desarrollado con todas las secciones prin
 ## 📁 Estructura del Proyecto
 
 ```
-nexergy-ai-web/
+optinex-ai-web/
 ├── client/
 │   ├── src/
 │   │   ├── pages/
@@ -139,7 +139,7 @@ pnpm format
 
 ## 🔗 Repositorio
 
-**GitHub:** https://github.com/Nexergy-ai/nexergy-ai-web
+**GitHub:** https://github.com/Optinex-ai/optinex-ai-web
 
 **Rama Principal:** `main`
 

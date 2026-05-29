@@ -1,15 +1,15 @@
-# NEXERGY AI - Final Handoff Documentation
+# OPTINEX AI - Final Handoff Documentation
 
 **Date:** May 23, 2026
 **Status:** MVP Complete - Ready for Handoff
-**Repository:** https://github.com/Nexergy-ai/nexergy-ai-web
+**Repository:** https://github.com/Optinex-ai/optinex-ai-web
 **Credits Used:** ~880/1000 (Strategic reserve: ~120)
 
 ---
 
 ## 🎯 What This Platform Is
 
-**NEXERGY AI** is an **Operational Intelligence Infrastructure MVP** that transforms operational contexts into actionable intelligence through orchestrated business unit analysis.
+**OPTINEX AI** is an **Operational Intelligence Infrastructure MVP** that transforms operational contexts into actionable intelligence through orchestrated business unit analysis.
 
 **NOT:** An AI demo website or experimental frontend.
 **IS:** A credible operational platform foundation.
@@ -68,7 +68,7 @@ EXECUTIVE OUTPUT
 ## 📁 Repository Structure
 
 ```
-nexergy-ai-web/
+optinex-ai-web/
 ├── client/src/
 │   ├── pages/
 │   │   ├── Home.tsx (Landing + Orchestrator CTA)
@@ -121,7 +121,7 @@ nexergy-ai-web/
 
 ### Installation
 ```bash
-cd nexergy-ai-web
+cd optinex-ai-web
 pnpm install
 pnpm dev
 ```
@@ -142,7 +142,7 @@ pnpm build
 ## 🔄 Operational Flow (User Perspective)
 
 ### Step 1: Home Page
-User sees NEXERGY AI operational vision and clicks "Orchestrator" CTA.
+User sees OPTINEX AI operational vision and clicks "Orchestrator" CTA.
 
 ### Step 2: Input Module
 User submits:
@@ -297,6 +297,6 @@ Before handoff, verify:
 
 ---
 
-**Prepared by:** NEXERGY AI Platform Team
+**Prepared by:** OPTINEX AI Platform Team
 **Date:** May 23, 2026
 **Status:** ✅ Ready for Unified Publication

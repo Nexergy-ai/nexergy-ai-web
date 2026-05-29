@@ -1,7 +1,7 @@
-# Nexergy AI - Conceptos de Diseño
+# Optinex AI - Conceptos de Diseño
 
 ## Contexto
-Nexergy AI es una plataforma de inteligencia operacional en tiempo real que conecta estrategia empresarial con datos operacionales mediante IA agentiva. La propuesta de valor se centra en: eficiencia operacional, decisiones basadas en datos, y transformación digital.
+Optinex AI es una plataforma de inteligencia operacional en tiempo real que conecta estrategia empresarial con datos operacionales mediante IA agentiva. La propuesta de valor se centra en: eficiencia operacional, decisiones basadas en datos, y transformación digital.
 
 ---
 
@@ -159,7 +159,7 @@ Inspirado en arquitectura brutalist, con énfasis en estructura honesta, materia
 
 **Se elige: Minimalismo Corporativo Futurista**
 
-Este enfoque es el más alineado con la propuesta de Nexergy AI:
+Este enfoque es el más alineado con la propuesta de Optinex AI:
 - Transmite **confianza y precisión técnica** (crítico para soluciones empresariales)
 - Facilita la **comprensión rápida** de la plataforma compleja
 - Permite **escalabilidad visual** para múltiples unidades de negocio

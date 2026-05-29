@@ -1,6 +1,6 @@
 /**
  * Global Type Definitions
- * Centralized types for the NEXERGY AI platform
+ * Centralized types for the OPTINEX AI platform
  */
 
 // ============================================================================

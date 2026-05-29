@@ -282,7 +282,7 @@ export default function Governance() {
           <div className="p-8 rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 dark:from-blue-800 dark:to-blue-900 text-white">
             <h2 className="text-2xl font-bold mb-4">Trust. Traceability. Evidence Verificable.</h2>
             <p className="text-lg opacity-90">
-              NEXERGY AI is built on a foundation of enterprise-grade governance, rigorous compliance, and transparent operations. 
+              OPTINEX AI is built on a foundation of enterprise-grade governance, rigorous compliance, and transparent operations. 
               Every decision, every action, and every outcome is traceable, auditable, and verifiable. 
               We believe that trust is earned through transparency, and that operational intelligence must be grounded in integrity.
             </p>

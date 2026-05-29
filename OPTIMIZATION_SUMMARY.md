@@ -1,4 +1,4 @@
-# NEXERGY AI — Final UX Optimization Summary
+# OPTINEX AI — Final UX Optimization Summary
 
 **Date:** May 23, 2026
 **Commit:** 69bb5ab
@@ -180,7 +180,7 @@ SECTION 4: IMPACT & OUTPUT (3 outcomes)
 
 ## 🔄 GitHub Consolidation
 
-**Repository:** https://github.com/Nexergy-ai/nexergy-ai-web
+**Repository:** https://github.com/Optinex-ai/optinex-ai-web
 **Branch:** main
 **Commit:** 69bb5ab
 

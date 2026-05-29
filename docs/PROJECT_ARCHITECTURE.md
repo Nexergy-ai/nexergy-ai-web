@@ -1,8 +1,8 @@
-# NEXERGY AI - Project Architecture
+# OPTINEX AI - Project Architecture
 
 ## Overview
 
-**NEXERGY AI** is an AI-native operational infrastructure platform designed for industrial and energy systems. This document outlines the technical architecture, design decisions, and scalability strategy.
+**OPTINEX AI** is an AI-native operational infrastructure platform designed for industrial and energy systems. This document outlines the technical architecture, design decisions, and scalability strategy.
 
 ### Core Mission
 > "Conectamos estrategia y operación para ejecutar el futuro, hoy."
@@ -57,7 +57,7 @@ Connect business strategy with operational data through AI agents and digital tw
 ## Directory Structure
 
 ```
-nexergy-ai-web/
+optinex-ai-web/
 ├── client/
 │   ├── src/
 │   │   ├── app/
@@ -368,7 +368,7 @@ pnpm lint
 
 ### Environment Configuration
 ```env
-VITE_API_URL=https://api.nexergy.ai
+VITE_API_URL=https://api.optinex.ai
 VITE_ENVIRONMENT=production
 VITE_ANALYTICS_ID=xxx
 ```
@@ -470,4 +470,4 @@ localStorage.setItem('DEBUG_MODE', 'true');
 
 **Last Updated:** May 23, 2026
 **Version:** 1.0
-**Maintainer:** Nexergy AI Development Team
+**Maintainer:** Optinex AI Development Team

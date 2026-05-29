@@ -47,7 +47,7 @@ export function OperationalInputModule({ onContextSubmit, isLoading = false }: O
       <div className="space-y-2 mb-6">
         <h2 className="text-2xl font-bold text-white">Describe Your Challenge</h2>
         <p className="text-gray-400 text-sm">
-          Upload context and NEXERGY AI will orchestrate intelligence across all business units.
+          Upload context and OPTINEX AI will orchestrate intelligence across all business units.
         </p>
       </div>
 

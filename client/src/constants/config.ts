@@ -1,15 +1,15 @@
 /**
  * Site Configuration
- * Centralized configuration for NEXERGY AI platform
+ * Centralized configuration for OPTINEX AI platform
  */
 
 import { SiteConfig } from '@/types';
 
 export const siteConfig: SiteConfig = {
-  name: 'NEXERGY AI',
+  name: 'OPTINEX AI',
   description: 'Operational Intelligence Infrastructure',
-  url: 'https://nexergy.ai',
-  apiUrl: process.env.VITE_API_URL || 'https://api.nexergy.ai',
+  url: 'https://optinex.ai',
+  apiUrl: process.env.VITE_API_URL || 'https://api.optinex.ai',
   environment: (process.env.VITE_ENVIRONMENT as any) || 'development',
   version: '1.0.0',
   features: {

@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document outlines the integration strategy for connecting the NEXERGY AI frontend with a FastAPI backend for real operational data, AI orchestration, and digital twin simulation.
+This document outlines the integration strategy for connecting the OPTINEX AI frontend with a FastAPI backend for real operational data, AI orchestration, and digital twin simulation.
 
 ## Architecture
 
@@ -20,7 +20,7 @@ Frontend (React) → API Client → FastAPI Backend → Databases/AI Services
 
 ### Base URL
 ```
-Production: https://api.nexergy.ai
+Production: https://api.optinex.ai
 Development: http://localhost:8000
 ```
 
@@ -257,7 +257,7 @@ User login.
 **Request:**
 ```json
 {
-  "email": "user@nexergy.ai",
+  "email": "user@optinex.ai",
   "password": "secure-password"
 }
 ```
@@ -368,7 +368,7 @@ export function useOperationalData() {
 ### Connection
 
 ```typescript
-const ws = new WebSocket('wss://api.nexergy.ai/ws/metrics');
+const ws = new WebSocket('wss://api.optinex.ai/ws/metrics');
 
 ws.onmessage = (event) => {
   const data = JSON.parse(event.data);
@@ -418,7 +418,7 @@ All API endpoints require HTTPS in production.
 
 ### CORS
 ```
-Allowed Origins: https://nexergy.ai, https://*.nexergy.ai
+Allowed Origins: https://optinex.ai, https://*.optinex.ai
 Allowed Methods: GET, POST, PUT, DELETE
 Allowed Headers: Content-Type, Authorization
 ```
@@ -444,7 +444,7 @@ if (process.env.VITE_ENVIRONMENT === 'development') {
 ```bash
 # Test endpoints with curl
 curl -H "Authorization: Bearer TOKEN" \
-  https://api.nexergy.ai/api/v1/metrics
+  https://api.optinex.ai/api/v1/metrics
 ```
 
 ## Migration Plan

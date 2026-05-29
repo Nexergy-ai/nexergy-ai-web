@@ -55,9 +55,9 @@ export default function Home() {
       {/* FOOTER */}
       <footer className="py-8 px-4 border-t border-slate-800 bg-slate-950">
         <div className="max-w-5xl mx-auto text-center text-slate-400 text-sm">
-          <p>NEXERGY AI — Operational Intelligence Infrastructure</p>
+          <p>OPTINEX AI — Operational Intelligence Infrastructure</p>
           <p className="mt-2">
-            <a href="https://github.com/Nexergy-ai/nexergy-ai-web" className="text-cyan-400 hover:text-cyan-300">
+            <a href="https://github.com/Optinex-ai/optinex-ai-web" className="text-cyan-400 hover:text-cyan-300">
               GitHub Repository
             </a>
           </p>

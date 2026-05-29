@@ -1,4 +1,4 @@
-# NEXERGY AI - Development Roadmap
+# OPTINEX AI - Development Roadmap
 
 ## Current Status
 
@@ -478,4 +478,4 @@ Phase 5 (Expansion)
 **Document Version:** 1.0
 **Last Updated:** May 23, 2026
 **Next Review:** June 15, 2026
-**Owner:** Nexergy AI Development Team
+**Owner:** Optinex AI Development Team

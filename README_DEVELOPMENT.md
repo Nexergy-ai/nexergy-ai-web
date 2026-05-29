@@ -1,4 +1,4 @@
-# NEXERGY AI - Development Guide
+# OPTINEX AI - Development Guide
 
 ## Quick Start
 
@@ -11,8 +11,8 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/Nexergy-ai/nexergy-ai-web.git
-cd nexergy-ai-web
+git clone https://github.com/Optinex-ai/optinex-ai-web.git
+cd optinex-ai-web
 
 # Install dependencies
 pnpm install
@@ -27,7 +27,7 @@ pnpm dev
 ## Project Structure
 
 ```
-nexergy-ai-web/
+optinex-ai-web/
 ├── client/
 │   ├── src/
 │   │   ├── pages/          # Page components
@@ -204,7 +204,7 @@ Located in `client/src/constants/config.ts`:
 
 ```tsx
 export const siteConfig = {
-  name: 'NEXERGY AI',
+  name: 'OPTINEX AI',
   apiUrl: process.env.VITE_API_URL,
   features: {
     dashboard: true,
@@ -218,7 +218,7 @@ export const siteConfig = {
 Create `.env.local`:
 
 ```env
-VITE_API_URL=https://api.nexergy.ai
+VITE_API_URL=https://api.optinex.ai
 VITE_ENVIRONMENT=development
 ```
 
@@ -389,4 +389,4 @@ For questions or issues:
 
 **Last Updated:** May 23, 2026
 **Version:** 1.0
-**Maintainer:** Nexergy AI Development Team
+**Maintainer:** Optinex AI Development Team

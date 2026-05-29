@@ -1,15 +1,15 @@
-# NEXERGY AI - Release Status & MVP Scope
+# OPTINEX AI - Release Status & MVP Scope
 
 **Version:** 1.0.0-mvp
 **Release Date:** May 23, 2026
 **Status:** Ready for Unified Publication
-**Repository:** https://github.com/Nexergy-ai/nexergy-ai-web
+**Repository:** https://github.com/Optinex-ai/optinex-ai-web
 
 ---
 
 ## 📋 Executive Summary
 
-NEXERGY AI has successfully transitioned from an "AI-themed industrial website" to an **operational intelligence infrastructure MVP**. The platform now enables users to submit operational contexts and receive comprehensive intelligence orchestrated across five specialized business units.
+OPTINEX AI has successfully transitioned from an "AI-themed industrial website" to an **operational intelligence infrastructure MVP**. The platform now enables users to submit operational contexts and receive comprehensive intelligence orchestrated across five specialized business units.
 
 This release establishes the foundation for enterprise operational intelligence while maintaining architectural simplicity and operational credibility.
 
@@ -112,7 +112,7 @@ EXECUTIVE OUTPUT (Results display)
 ## 🎯 Operational Flow (User Experience)
 
 ### Step 1: Home Page
-- Orientation to NEXERGY AI operational vision
+- Orientation to OPTINEX AI operational vision
 - CTA to "Orchestrator" experience
 - Navigation to `/orchestrator`
 
@@ -261,7 +261,7 @@ EXECUTIVE OUTPUT (Results display)
 ## 📁 Repository Structure
 
 ```
-nexergy-ai-web/
+optinex-ai-web/
 ├── client/src/
 │   ├── pages/
 │   │   ├── Home.tsx (Landing page with Orchestrator CTA)
@@ -302,7 +302,7 @@ nexergy-ai-web/
 
 ### Development
 ```bash
-cd nexergy-ai-web
+cd optinex-ai-web
 pnpm install
 pnpm dev
 # Access at http://localhost:5173
@@ -354,7 +354,7 @@ For issues, questions, or feedback:
 
 ## 🏁 Conclusion
 
-NEXERGY AI MVP successfully demonstrates the core operational intelligence orchestrator experience. The platform has evolved from a visual experiment into a credible operational infrastructure MVP.
+OPTINEX AI MVP successfully demonstrates the core operational intelligence orchestrator experience. The platform has evolved from a visual experiment into a credible operational infrastructure MVP.
 
 **Status:** ✅ Ready for unified publication
 **Confidence:** ✅ High operational credibility
@@ -365,6 +365,6 @@ The platform is now positioned to evolve toward full enterprise operational inte
 
 ---
 
-**Release Manager:** NEXERGY AI Platform Team
+**Release Manager:** OPTINEX AI Platform Team
 **Date:** May 23, 2026
-**Repository:** https://github.com/Nexergy-ai/nexergy-ai-web
+**Repository:** https://github.com/Optinex-ai/optinex-ai-web
